@@ -1,0 +1,13 @@
+[2024-08-10 08:31:05] [ INFO ] [DomicilioDaoH2:42] [guardar] domicilio persistido Domicilio{id=2, calle='falsa', numero=456, localidad='Cipolleti', provincia='Rio Negro'}
+[2024-08-10 08:31:05] [ ERROR] [Paciente:49] [guardar] Parametro "#3" no está fijado
+Parameter "#3" is not set; SQL statement:
+INSERT INTO PACIENTES VALUES (DEFAULT,?,?,?,?,?) [90012-230]
+[2024-08-10 08:37:45] [ INFO ] [DomicilioDaoH2:42] [guardar] domicilio persistido Domicilio{id=2, calle='falsa', numero=456, localidad='Cipolleti', provincia='Rio Negro'}
+[2024-08-10 08:37:46] [ INFO ] [Paciente:47] [guardar] paciente persistido Paciente{id=2, apellido='Romero', nombre='Luciana', dni='56655', fechaIngreso=2024-07-16, domicilio=Domicilio{id=2, calle='falsa', numero=456, localidad='Cipolleti', provincia='Rio Negro'}}
+[2024-08-10 12:37:26] [ INFO ] [DomicilioDaoH2:94] [buscarPorId] domicilio encontrado Domicilio{id=1, calle='SIEMPRE VIVA', numero=123, localidad='CABA', provincia='BUENOS AIRES'}
+[2024-08-10 12:37:26] [ INFO ] [Paciente:104] [buscarPorId] paciente encontrado Paciente{id=1, apellido='PEREZ', nombre='JUAN', dni='45566', fechaIngreso=2024-07-15, domicilio=Domicilio{id=1, calle='SIEMPRE VIVA', numero=123, localidad='CABA', provincia='BUENOS AIRES'}}
+[2024-08-10 13:19:48] [ INFO ] [PacienteDaoMemoria:18] [guardar] paciente guardado Paciente{id=1, apellido='Romero', nombre='Luciana', dni='56655', fechaIngreso=2024-07-16, domicilio=Domicilio{id=null, calle='falsa', numero=456, localidad='Cipolleti', provincia='Rio Negro'}}
+[2024-08-10 13:22:08] [ INFO ] [PacienteDaoMemoria:18] [guardar] paciente guardado Paciente{id=1, apellido='Romero', nombre='Luciana', dni='56655', fechaIngreso=2024-07-16, domicilio=Domicilio{id=null, calle='falsa', numero=456, localidad='Cipolleti', provincia='Rio Negro'}}
+[2024-08-10 13:24:56] [ INFO ] [PacienteDaoMemoria:19] [guardar] paciente guardado Paciente{id=1, apellido='Romero', nombre='Luciana', dni='56655', fechaIngreso=2024-07-16, domicilio=Domicilio{id=1, calle='falsa', numero=456, localidad='Cipolleti', provincia='Rio Negro'}}
+[2024-08-10 13:31:48] [ INFO ] [PacienteDaoMemoria:19] [guardar] paciente guardado Paciente{id=1, apellido='Romero', nombre='Luciana', dni='56655', fechaIngreso=2024-07-16, domicilio=Domicilio{id=1, calle='falsa', numero=456, localidad='Cipolleti', provincia='Rio Negro'}}
+[2024-08-10 13:31:48] [ INFO ] [PacienteDaoMemoria:32] [buscarPorId] paciente encontrado Paciente{id=1, apellido='Romero', nombre='Luciana', dni='56655', fechaIngreso=2024-07-16, domicilio=Domicilio{id=1, calle='falsa', numero=456, localidad='Cipolleti', provincia='Rio Negro'}}
